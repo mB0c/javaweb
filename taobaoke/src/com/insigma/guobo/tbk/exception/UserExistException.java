@@ -1,0 +1,33 @@
+package com.insigma.guobo.tbk.exception;
+
+import javax.persistence.Entity;
+
+@Entity
+public class UserExistException extends Exception {
+
+	public UserExistException() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public UserExistException(String arg0) {
+		super(arg0);
+		// TODO Auto-generated constructor stub
+	}
+
+	public UserExistException(Throwable arg0) {
+		super(arg0);
+		// TODO Auto-generated constructor stub
+	}
+
+	public UserExistException(String arg0, Throwable arg1) {
+		super(arg0, arg1);
+		// TODO Auto-generated constructor stub
+	}
+
+	public UserExistException(String arg0, Throwable arg1, boolean arg2,
+			boolean arg3) {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

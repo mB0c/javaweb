@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="taobaoke"
+  id="myeclipse.1367033608313"
+  context-root="/taobaoke"
+  j2ee-spec="5.0"
+  archive="taobaoke.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

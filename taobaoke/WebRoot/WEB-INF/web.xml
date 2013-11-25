@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	 <servlet>
+    <servlet-name>YanzhengmaImag</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.YanzhengmaImag</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.CheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ActiveUserServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.ActiveUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IsSuccessServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.IsSuccessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckImagValue</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.CheckImagValue</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GiveJsonDate</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.GiveJsonDate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UsersOptServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.UsersOptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TaskServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.TaskServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>GetTaskConfServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.GetTaskConfServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetImgServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.GetImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchByUserServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.SearchByUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadCommentsServlet</servlet-name>
+    <servlet-class>com.insigma.guobo.tbk.servlet.LoadCommentsServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>YanzhengmaImag</servlet-name>
+    <url-pattern>/servlet/YanzhengmaImag</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckServlet</servlet-name>
+    <url-pattern>/servlet/CheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ActiveUserServlet</servlet-name>
+    <url-pattern>/servlet/ActiveUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsSuccessServlet</servlet-name>
+    <url-pattern>/servlet/IsSuccessServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckImagValue</servlet-name>
+    <url-pattern>/servlet/CheckImagValue</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GiveJsonDate</servlet-name>
+    <url-pattern>/servlet/GiveJsonDate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UsersOptServlet</servlet-name>
+    <url-pattern>/servlet/UsersOptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/servlet/AddUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTaskConfServlet</servlet-name>
+    <url-pattern>/servlet/GetTaskConfServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TaskServlet</servlet-name>
+  	<url-pattern>/servlet/TaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetImgServlet</servlet-name>
+    <url-pattern>/servlet/GetImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchByUserServlet</servlet-name>
+    <url-pattern>/servlet/SearchByUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadCommentsServlet</servlet-name>
+    <url-pattern>/servlet/LoadCommentsServlet</url-pattern>
+  </servlet-mapping>
+	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
